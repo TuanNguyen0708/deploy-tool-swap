@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/deploy-tool-swap",
+            "outputPath": "dist/angular-tool",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -99,7 +99,10 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "@angular-devkit/build-angular:deploy",
+          "options": {
+            "baseHref": "/deploy-tool-swap/"
+          }
         }
       }
     }
