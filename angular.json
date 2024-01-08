@@ -99,10 +99,7 @@
           }
         },
         "deploy": {
-          "builder": "@angular-devkit/build-angular:deploy",
-          "options": {
-            "baseHref": "/deploy-tool-swap/"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
