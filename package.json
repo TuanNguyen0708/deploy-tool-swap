@@ -1,7 +1,7 @@
 {
   "name": "deploy-tool-swap",
   "version": "0.0.0",
-  "homepage": "https://tuannguyen0708.github.io/deploy-tool-swap/",
+  "homepage": "http://tuannd.cloud/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
